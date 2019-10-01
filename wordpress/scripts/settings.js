@@ -22,7 +22,7 @@ if (group.groupType == 'trial') {
                 type: "checkbox",
                 name: "ls-addon",
                 caption: lsText,
-                value: true
+                value: false
             });
         }
     settings.fields.push({
@@ -85,7 +85,7 @@ if (group.groupType == 'trial') {
             type: "checkbox",
             name: "ls-addon",
             caption: lsText,
-            value: true
+            value: false
         });
     }
     
@@ -96,7 +96,7 @@ if (group.groupType == 'trial') {
             type: "checkbox",
             name: "cdn-addon",
             caption: cdnText,
-            value: true
+            value: false
         });
     }
 
@@ -106,7 +106,7 @@ if (group.groupType == 'trial') {
             type: "checkbox",
             name: "le-addon",
             caption: sslText,
-            value: true
+            value: false
         });
     }
     settings.fields.push({
